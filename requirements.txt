@@ -5,3 +5,6 @@ parso
 pytest
 requests
 click
+watchdog
+transformers
+huggingface_hub
