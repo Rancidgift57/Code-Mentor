@@ -1,0 +1,7 @@
+pylint
+flake8
+black
+parso
+pytest
+requests
+click
