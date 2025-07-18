@@ -5,3 +5,5 @@ parso
 pytest
 requests
 click
+watchdog
+transformer
