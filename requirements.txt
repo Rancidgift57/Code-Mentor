@@ -1,0 +1,9 @@
+pylint
+flake8
+black
+parso
+pytest
+requests
+click
+watchdog
+transformer
