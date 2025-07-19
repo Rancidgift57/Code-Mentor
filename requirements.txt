@@ -6,4 +6,9 @@ pytest
 requests
 click
 watchdog
+<<<<<<< HEAD
 transformer
+=======
+transformers
+huggingface_hub
+>>>>>>> a727a2ca2a37a171f657ec7d200afb4682220dd5
