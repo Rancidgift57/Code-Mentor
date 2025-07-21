@@ -1,4 +1,5 @@
 # CodeMentor VS Code Extension
+![logocode](https://github.com/user-attachments/assets/54d3d224-f08d-429b-ac62-601782b87613)
 
 
 **CodeMentor** is an AI-powered Visual Studio Code extension that provides real-time analysis, hints, and solutions for Python code using Hugging Face's `distilgpt2` model. It helps developers debug syntax errors, improve code quality, and understand their code through detailed explanations.
