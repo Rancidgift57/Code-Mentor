@@ -10,10 +10,6 @@
 - **Set Hugging Face Token** (`Ctrl+Shift+T`): Configure your Hugging Face API token for AI-powered feedback.
 - **Flake8 Integration**: Automatically checks for PEP 8 style violations and suggests fixes.
 
-## Screenshots
-![Solution Mode](https://example.com/screenshots/solution-mode.png)
-*Solution Mode fixing a missing colon in `test.py`*
-
 ## Installation
 1. **Install from Marketplace**:
    - Search for `CodeMentor` in the VS Code Extensions view (`Ctrl+Shift+X`) or visit [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=nikhil-codementor.codementor).
