@@ -1,0 +1,86 @@
+{
+  "name": "codementor",
+  "displayName": "CodeMentor",
+  "description": "AI-powered Python code analysis and feedback using Hugging Face models",
+  "version": "0.0.3",
+  "publisher": "nikhil-codementor",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "activationEvents": [
+    "onCommand:yourExtension.helloWorld"
+  ],
+  "categories": [
+    "Programming Languages",
+    "Linters"
+  ],
+  "keywords": [
+    "python",
+    "ai",
+    "code analysis",
+    "linter",
+    "mentor"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codementor.explain",
+        "title": "CodeMentor: Explain Code"
+      },
+      {
+        "command": "codementor.hint",
+        "title": "CodeMentor: Get Hint"
+      },
+      {
+        "command": "codementor.solution",
+        "title": "CodeMentor: Get Solution"
+      },
+      {
+        "command": "codementor.setToken",
+        "title": "CodeMentor: Set Hugging Face Token"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "codementor.explain",
+        "key": "ctrl+e",
+        "mac": "cmd+e"
+      },
+      {
+        "command": "codementor.hint",
+        "key": "ctrl+y",
+        "mac": "cmd+y"
+      },
+      {
+        "command": "codementor.solution",
+        "key": "ctrl+shift+s",
+        "mac": "cmd+shift+s"
+      },
+      {
+        "command": "codementor.setToken",
+        "key": "ctrl+shift+t",
+        "mac": "cmd+shift+t"
+      }
+    ]
+  },
+  "icon": "images/logocode.jpg",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rancidgift57/Code-Mentor.git"
+  },
+  "scripts": {
+    "vscode:prepublish": "echo 'Linting skipped'",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@types/node": "^16.11.7",
+    "@types/vscode": "^1.85.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0",
+    "vscode": "^1.1.37"
+  }
+}
