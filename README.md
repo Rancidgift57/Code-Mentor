@@ -290,9 +290,8 @@ To automate publishing updates to the Marketplace, set up a GitHub Action.
 
 
 ## Contributing
-- File issues or submit pull requests at [GitHub](https://github.com/yourusername/codementor).
-- Follow the [Contributor Guide](CONTRIBUTING.md) (optional, create if needed).
-
+- File issues or submit pull requests at [GitHub](https://github.com/Rancidgift57/Code-Mentor.git).
+- 
 ## License
 [MIT](LICENSE)
 
