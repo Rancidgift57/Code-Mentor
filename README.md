@@ -123,7 +123,7 @@ To contribute to or publish updates for CodeMentor, set up a GitHub repository t
 5. **Link Local Repository to GitHub**:
    Copy the repository URL (e.g., `https://github.com/yourusername/codementor.git`) and run:
    ```bash
-   git remote add origin https://github.com/yourusername/codementor.git
+   git remote add origin https://github.com/Rancidgift57/Code-Mentor
    git branch -M main
    git push -u origin main
    ```
@@ -298,3 +298,4 @@ To automate publishing updates to the Marketplace, set up a GitHub Action.
 
 ## Contact
 For support, contact email: nnair7598@gmail.com.
+
